@@ -19,12 +19,12 @@ The code has been modified to remove proprietary or sensitive information and ad
 
 This Python script provides a simple graphical user interface (GUI) tool for searching similar product numbers in a SQL database and sending email notifications. It's designed to help users identify and manage duplicate product numbers efficiently.
 
-### Features
+### Features:
 - **Search Functionality**: Users can search for similar product numbers by entering a partial number into the input field and clicking the "Search" button.
 - **Email Notification**: Once similar product numbers are found, users can click the "Send Email" button to send a notification email to the designated recipient.
 - **Interactive GUI**: The application features a user-friendly graphical interface built using the Tkinter library.
 
-### Usage
+### Usage:
 1. **Search for Similar Product Numbers**:
    - Enter a partial product number into the search field.
    - Click the "Search" button to find similar product numbers in the database.
