@@ -24,7 +24,7 @@ This Python script provides a simple graphical user interface (GUI) tool for sea
 - **Email Notification**: Once similar product numbers are found, users can click the "Send Email" button to send a notification email to the designated recipient.
 - **Interactive GUI**: The application features a user-friendly graphical interface built using the Tkinter library.
 
-## Usage
+### Usage
 1. **Search for Similar Product Numbers**:
    - Enter a partial product number into the search field.
    - Click the "Search" button to find similar product numbers in the database.
