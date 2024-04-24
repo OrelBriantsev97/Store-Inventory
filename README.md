@@ -29,31 +29,33 @@ This Python script provides a simple graphical user interface (GUI) tool for sea
    - Enter a partial product number into the search field.
    - Click the "Search" button to find similar product numbers in the database.
    - Results will be displayed in the listbox.
+  
+2. **Send Email Notification**:
+   - After finding similar product numbers, click the "Send Email" button.
+   - Enter the recipient's email address in the provided field.
+   - Click the "Send" button to send an email notification containing the relevant information.
 
 
-## Task Query and Email Notification Script
+## Product Remove Reminder
 
 This Python script automates querying a SQL database for specific tasks and sending email notifications. It's designed to assist with task management and ensure timely notifications when certain conditions are met.
 
 ### Features:
-- **Task Query Functionality**: Fetches tasks from a SQL database based on specific criteria, such as tasks that need attention or action.
-- **Email Notification**: Sends email alerts to a designated recipient when tasks meet the defined conditions.
+- **Task Query Functionality**: Fetches tasks details from a SQL database based on specific criteria - tasks that need to be removed from sale
+- **Email Notification**: Sends email alerts to night shift when tasks meet the defined conditions.
 - **Error Logging**: Records errors and other significant events in a designated log file for easy troubleshooting.
 
 ### Usage:
 1. **Run a Query for Tasks**:
    - Connect to your SQL database using the `connect_db()` function.
    - Use `run_query()` to retrieve tasks that need attention.
-   - The result is a list of tasks that meet the specified criteria.
+   - The result is a list of tasks that nneds to be removed from sale
 
 2. **Send Email Notifications**:
    - Set up Gmail SMTP with your email and app password.
    - Use `send_email()` to send task details to the designated email recipient.
 
-2. **Send Email Notification**:
-   - After finding similar product numbers, click the "Send Email" button.
-   - Enter the recipient's email address in the provided field.
-   - Click the "Send" button to send an email notification containing the relevant information.
+
 
 
 
